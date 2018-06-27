@@ -16,5 +16,10 @@ namespace OSISP_TASK_1
         {
             InitializeComponent();
         }
+
+        private void Form1_DoubleClick(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }
